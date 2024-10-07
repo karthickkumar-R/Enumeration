@@ -26,45 +26,51 @@ Open terminal and try execute some kali linux commands
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+## Google Hacking:
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: 
+## site: 
+
 This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain youtube.com
+
 
 ![369844097-028acbd9-1cd6-430e-80fa-5ae4032c64b2](https://github.com/user-attachments/assets/3c5cb184-459e-45c3-b254-2e89cb4bb528)
 
 
-filetype:
+## filetype:
 This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain youtube.com
 
 ![369844464-93b1b0ff-6d4d-4713-a743-3698576e04b5](https://github.com/user-attachments/assets/57784564-ce84-48ac-a254-f97f47038b75)
 
+## intext:
 
-intext:
 This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
 ![369844805-a1a140dc-4a81-4096-a087-047e82264bce](https://github.com/user-attachments/assets/877d7768-f2f1-4c60-a663-83495819383c)
 
-inurl: 
+## inurl: 
+
 This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
 ![369845040-91b63f97-4c42-4ab1-b963-c4974e784ffe](https://github.com/user-attachments/assets/c42e9034-aeaf-4272-9780-ad950fbb861b)
 
-intitle:
+## intitle:
+
 This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
 ![369845234-ad903811-29b5-40c0-ae19-38853e9ce871](https://github.com/user-attachments/assets/d6f07261-78f5-44a3-82ef-8323f485201a)
 
-link:
+## link:
+
 This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
 ![369845408-46a5588d-c3f5-4090-b3d0-d34e9cce7bd2](https://github.com/user-attachments/assets/1de576b5-65ef-4eb1-bb53-8cba23ca29c3)
 
-cache: 
+## cache: 
+
 This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
 ![369905238-c2ebb68d-50fe-4512-9c1b-07e28c4dde64](https://github.com/user-attachments/assets/958dba4b-4595-45b9-92ec-a03d639f25e3)
@@ -72,10 +78,13 @@ This operator allows you to view the cached version of a page. For example, "cac
  
 #DNS Enumeration
 ##DNS Recon
+
 ![369845808-94979a3e-24b5-4ad2-bf1c-ea03ba1301f6](https://github.com/user-attachments/assets/799bd58b-22a1-4363-b0de-d767a7e5caf7)
+
 ![369845877-207352be-e5da-42fc-a2b1-0b495642058f](https://github.com/user-attachments/assets/4fc8d859-7447-4279-9c13-6bdbbddbf11d)
 
 ## dnsenum
+
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -91,11 +100,15 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 ![Screenshot 2024-09-23 154601](https://github.com/user-attachments/assets/f0995c0f-c5ea-42a4-98a2-10e7984f6882)
 
+
 ![Screenshot 2024-09-23 154627](https://github.com/user-attachments/assets/23c1609a-7c86-4fb5-a907-a0dbf8575603)
+
 
 ![Screenshot 2024-09-23 154641](https://github.com/user-attachments/assets/80486bea-f007-456e-8ac6-0fa062a74825)
 
+
 ## smtp-user-enum
+
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
