@@ -76,8 +76,8 @@ This operator allows you to view the cached version of a page. For example, "cac
 ![369905238-c2ebb68d-50fe-4512-9c1b-07e28c4dde64](https://github.com/user-attachments/assets/958dba4b-4595-45b9-92ec-a03d639f25e3)
 
  
-#DNS Enumeration
-##DNS Recon
+## DNS Enumeration
+## DNS Recon
 
 ![369845808-94979a3e-24b5-4ad2-bf1c-ea03ba1301f6](https://github.com/user-attachments/assets/799bd58b-22a1-4363-b0de-d767a7e5caf7)
 
@@ -121,14 +121,14 @@ select any username in the first column of the above file and check the same
 ![Screenshot 2024-09-23 155751](https://github.com/user-attachments/assets/8503f32f-be87-4e46-b791-76d949beb969)
 
 
-# Telnet for smtp enumeration
+## Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ## Output
+## Output
   
-  ![WhatsApp Image 2024-09-25 at 08 34 09_c3bb658e](https://github.com/user-attachments/assets/1f31f3c0-5db5-4f4a-9241-81861bd3696b)
+![WhatsApp Image 2024-09-25 at 08 34 09_c3bb658e](https://github.com/user-attachments/assets/1f31f3c0-5db5-4f4a-9241-81861bd3696b)
 
 
 ## nmap –script smtp-enum-users.nse <hostname>
